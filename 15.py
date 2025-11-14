@@ -106,8 +106,9 @@ def main():
         elif move == 'd' and ec > 0:
             game.move(er, ec - 1)
         else:
-            print("Ход невозможен")
+            print("\nХод невозможен\n")
 
 
 if __name__ == "__main__":
+
     main()
